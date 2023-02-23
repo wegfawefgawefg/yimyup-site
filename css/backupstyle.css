@@ -1,0 +1,71 @@
+/* center the center block class, padded 20% on all sides */
+.centerblock {
+    position: absolute;
+    margin: 20%;
+    /* show border */
+    border: 1px solid red;
+}
+
+
+/* set logo to 60% screen */
+.logo {
+    margin: 0 0 0 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.founders {
+    margin: 10% 0 0 0;
+}
+
+/* founder-card 's should be to the left and right of eachother , but evenly spaced  20% from the left and right */
+.founder-card {
+    position: absolute;
+    float: left;
+    /* drop shadow */
+    
+}
+
+/* founder-card-image 's should be centered in their founder card */
+.founder-card-img {
+    position: absolute;
+    display: grid;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+#founder1 {
+    position: absolute;
+    float:left;
+    /* rotate left 5% */
+    transform: rotate(-5deg);
+    
+}
+#founder2 {
+    position: absolute;
+    float:right;
+    /* rotate right 5% */
+    transform: rotate(5deg);
+}
+
+/* background color a faded grey */
+body {
+    background-color: #303030;
+    /* cutesy but professional font */
+    font-family: 'Lato', sans-serif;
+}
+
+/* the contact section goes at the very bottom */
+.contact {
+    position: absolute;
+    bottom: 10%;
+    width: 100%;
+    /* pad left 10% */
+    padding-left: 5%;
+}
+
+/* disable scrolling */
+html {
+    /* overflow: hidden; */
+}

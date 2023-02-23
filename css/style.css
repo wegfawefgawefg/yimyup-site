@@ -1,0 +1,92 @@
+body {
+    background-color: #303030;
+    /* cutesy but professional font */
+    font-family: 'Lato', sans-serif;
+}
+
+.logoblock {
+    display: block;
+    margin: 2% 0 2% 0 ;
+    /* border: 1px solid red; */
+}
+
+.logo {
+    display:block;
+    margin:auto;
+    height: 40%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.foundersblock {
+    display: block;
+    margin: 2% 0 2% 0 ;
+    /* border: 1px solid red; */
+}
+
+.founderscontent {
+    display:flex;
+    /* align-items: center; */
+    /* flex-direction: row; */
+    /* justify-content: space-between; */
+    /* margin: 2% 0 2% 0 ; */
+    margin:auto;
+    width: 40%;
+    height: 30%;
+    /* border: 1px solid red; */
+}
+
+.founder-card {
+    /* two cards side by side in foundersblock */
+    display: flex-inline;
+    /* margin */
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    /* border: 1px solid rgb(9, 255, 0); */
+    
+}
+    
+
+.founder-card-img {
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+p, h3 {
+    font-size: 1.5em;
+    color: #b9b9b9;
+}
+
+
+#founder1-img {
+    transform: rotate(-5deg);
+}
+
+
+#founder2-img {
+    transform: rotate(5deg);
+}
+
+.contactblock {
+    display: block;
+    margin: 2% 0 2% 0 ;
+    /* border: 1px solid red; */
+}
+
+.contactcontent {
+    /* display:block; */
+    /* center */
+    float: center;
+    
+    margin:auto;
+    width: 20%;
+    height: 40%;
+    /* border: 1px solid red; */
+}
+
+/* disable scrolling */
+html {
+    overflow: hidden;
+}
